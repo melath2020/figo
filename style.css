@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+/* //general */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.form-control:focus {
+    border-color: #f7f3f3ea;
+    box-shadow: none;
+  }
+
+/* scroll-header */
+#navbar-header{
+  background-color:#f8f8f8;
+  padding-bottom:10px;
+  position: fixed;
+  z-index: 1;
+  top: -120px;
+  width:100vw;
+  display: block;
+  transition: top 0.3s;
+
+  
+}
+
+* mobile-menu */
+
+.menu-mob{
+    color: #d3b47d;;
+    font-size: 25px;
+    margin-top: -60px;
+   text-align: end;
+   width: 100%;
+    font-size: 27px;
+}
+.menu-mob .fa-bars{
+    color: #2c2b2a;;
+    font-size: 30px;
+    margin-top: -140px;
+    margin-right: 20px;
+    
+}
+.menu-mob .fa-xmark{
+    color:rgb(44, 42, 42);
+    font-size: 30px;
+    margin-top: -140px;
+    margin-right: 20px;
+   
+}
+
+
+/* mobile-nav */
+.mobile-nav-wrapper{
+
+    display:none;
+    position: fixed;
+    width:100vw;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background:linear-gradient(to bottom,rgba(27, 27, 27, 0.226),rgb(48, 46, 46));
+    height: 100vh;
+    
+    transition: top 0.3s;
+}
+.mobile-nav-wrappers{
+
+    display:none;
+    position: fixed;
+    width:100vw;
+    
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: linear-gradient(90deg, rgba(131, 175, 55, 0.493) 0%, rgba(139,195,39,1) 0%, rgba(71, 93, 3, 0.527) 100%);
+    height: 100vh;
+    transition: top 0.3s;
+}
+
+.mobile-nav{
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    border-bottom: rgb(131,175,55) solid 3px;
+    border-left: rgb(131,175,55) solid 3px;
+    border-right: rgb(131,175,55) solid 3px;
+    font-size: 18px;
+    padding: 1rem;
+    border-radius: 5px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.mobile-nav a{
+    font-weight: 600;
+    color:rgb(117, 115, 115); 
+    text-decoration: none;
+    margin: 1rem 0;
+    font-size: 20px;
+}
+.mobile-nav a:hover{
+    font-weight: 600;
+    color:rgb(131,175,55); 
+    text-decoration: none;
+    margin: 1rem 0;
+    font-size: 20px;
+}
+
+/* header-section */
+    
+.menu-mob{
+  font-size: 26px;
+  padding-left: 30px;
+}
+.menu{
+    padding-top: 30px;
+}
+.menu a{
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(80, 78, 78);
+    padding-left: 20px;
+}
+.menu a:hover{
+  font-size: 13px;
+  text-decoration: none;
+  color: rgb(131,175,55);
+  padding-left: 20px;
+}
+.fa-solid{
+  padding-left: 20px;
+}
+
+
+/* .hero-section */
+.hero-section{
+    padding-bottom: 100px;
+}
+.hero-section .row h1{
+    margin-top: 25%;
+   font-weight: 400;
+  
+}
+.hero-section .pizza-img img{
+    padding:20px;
+    width: 100%;
+}
+
+.hero-section .row p{
+    font-size: 14px;
+    color: rgb(117, 114, 114);
+}
+.hero-section .pizza-img img{
+    animation: animName 160s linear infinite;
+    
+  }
+  
+  @keyframes animName {
+   0%{
+      transform: rotate(0deg);
+     }
+  100%{
+      transform: rotate(360deg);
+     }
+  }
+
+  .btn-green{
+    background: rgb(131,175,55);
+    background: linear-gradient(90deg, rgba(131,175,55,1) 0%, rgba(139,195,39,1) 0%, rgba(70,93,3,1) 100%);
+    color: #fff;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+  }
+  .input-form{
+    border: 0px #fff solid;
+    box-shadow: 2px 3px 7px 0px rgba(87, 85, 85, 0.212)
+  }
+  .hero-section .container{
+    background-image: url(img-assets/leaf-A.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+  }
+
+
+  /* welcome-section */
+  .welcome-section{
+    padding-bottom: 100px;
+  }
+
+.img-chief img{
+  width: 80%;
+  height: 50%;
+
+}
+.text-welcome .wel{
+  color: rgb(218, 143, 5);
+}
+.text-welcome h2{
+      font-size: 35px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300px;
+}
+.text-welcome p{
+  font-size: 14px;
+  color: rgb(100, 98, 98);
+}
+.explore-btn{
+  border: none;
+  background: rgb(131,175,55);
+  background-color:linear-gradient(90deg, rgba(131,175,55,1) 0%, rgba(139,195,39,1) 0%, rgba(70,93,3,1) 100%); 
+  color: #fff;
+  font-size: 12px;
+  padding:10px 10px 10px 10px;
+ 
+}
+
+
+/* .tabs-section */
+.tabs-section{
+  background-image: url(img-assets/leaf-C.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding-top: 34px;
+  padding-bottom: 420px;
+}
+
+.org-txt{
+  font-size: 14px;
+  color: rgb(209, 138, 5);
+}
+.head-explore{
+  font-size: 24px;
+  font-weight: 500;
+
+}
+.tab-container{
+  padding-top: 30px;
+}
+.breakfast-container .food-card:hover{
+  border-bottom:2px rgb(120, 165, 42) solid;
+  transform: scale(1.02);
+}
+
+
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid rgb(235, 229, 229);
+  background-color: #faf8f8;
+  width: 30%;
+  
+}
+
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: rgb(136, 135, 133);
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  
+}
+
+.food-card img{
+  width:100%;
+}
+
+.rate{
+  color: rgb(120, 165, 42);
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: rgb(243, 240, 240);
+  
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: rgb(238, 230, 230);
+  border-left: 2px orange solid;
+  color: orange;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid rgb(245, 240, 240);
+  width: 70%;
+  border-left: none;
+  
+}
+
+/* testimonial-section */
+.testimonial-section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.testimonial-section .container{
+  background-image: url(img-assets/leaf-c.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding-top: 100px;
+}
+.testi-text-box{
+  padding: 10px;
+  background-color: #fdf7f7;
+  box-shadow:  2px 3px 7px 0px rgba(87, 85, 85, 0.212);
+}
+.testi-text-box p{
+  font-size: 10px;
+  color: #646262
+}
+.testi-img{
+  border-radius: 500px;
+  width: 100%;
+}
+.testi-first{
+  font-size: 16px;
+}
+.text-sub p{
+  color: rgb(166, 168, 168);
+  font-size: 14px;
+}
+.under{
+  padding-left: 200px;
+}
+.under-right{
+  padding-right: 200px;
+}
+
+
+
+
+/* footer-section */
+.footer-section{
+  padding-top: 80px;
+  background-color: #f3efef;
+  padding-bottom: 50px;
+}
+.footer-section p{
+  font-size: 14px;
+  color: rgb(63, 62, 62);
+}
+.links a{
+  text-decoration: none;
+  color: rgb(63, 62, 62);
+  font-size: 14px;
+}
+.links p{
+  font-size: 14px;
+  color: rgb(63, 62, 62);
+}
+
+
+
+/* 
+media-query */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .menu{
+    display: none;
+  }
+  .menu-mob{
+    
+   
+    margin-top:-40px;
+    padding: 10px;
+  }
+  .hero-section button{
+    display: none;
+  }
+  .hero-section .input-form{
+    display: none;
+  }
+  #nav-btns{
+    display: inline-block;
+  }
+  #close-btns{
+    display: none;
+  }
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .menu{
+    display: none;
+  }
+  .menu-mob{
+    
+   
+    margin-top:-40px;
+    padding-left: 10px;
+  }
+  .hero-section button{
+    display: none;
+  }
+  .hero-section .input-form{
+    display: none;
+  }
+
+  #nav-btns{
+    display: inline-block;
+  }
+  #close-btns{
+    display: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .menu{
+    display: inline-block;
+  }
+  .menu-mob{
+    
+   
+    margin-top:-40px;
+    padding-left: 10px;
+  }
+  .hero-section button{
+    display: block;
+  }
+  .hero-section .input-form{
+    display: block;
+  }
+  #nav-btns{
+    display:none;
+  }
+  #close-btns{
+    display: none;
+  }
+  .menu-mob{
+    display: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .menu{
+    display: inline-block;
+  }
+  .hero-section button{
+    display: block;
+  }
+  .menu-mob{
+    display: none;
+  }
+  .hero-section .input-form{
+    display: block;
+  }
+  #nav-btns{
+    display: none;
+  }
+  #close-btns{
+    display: none;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .menu{
+    display: inline-block;
+  }
+  .menu-mob{
+    display: none;
+  }
+  .hero-section button{
+    display: block;
+  }
+  .hero-section .input-form{
+    display: block;
+  }
+  #nav-btns{
+    display: none;
+  }
+  #close-btns{
+    display: none;
+  }
+}
