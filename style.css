@@ -453,6 +453,12 @@ media-query */
   .menu-mob{
     display: none;
   }
+  #nav-btn{
+    display: none;
+  }
+  #close-btn{
+    display: none;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -475,6 +481,12 @@ media-query */
   #close-btns{
     display: none;
   }
+  #nav-btn{
+    display: none;
+  }
+  #close-btn{
+    display: none;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -495,6 +507,12 @@ media-query */
     display: none;
   }
   #close-btns{
+    display: none;
+  }
+  #nav-btn{
+    display: none;
+  }
+  #close-btn{
     display: none;
   }
 }
