@@ -398,6 +398,9 @@ media-query */
   #close-btns{
     display: none;
   }
+  #close-btn{
+    display: none;
+  }
   
 }
 
@@ -423,6 +426,9 @@ media-query */
     display: inline-block;
   }
   #close-btns{
+    display: none;
+  }
+  #close-btn{
     display: none;
   }
 }
